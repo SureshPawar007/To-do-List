@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #373b69;
+}
+
+#todoForm .toDOItemGroup{
+ flex-grow: 1;
+}
+#todoForm .toDOItemGroup input{
+ width: 100%;
+ height: 50px;
+}
+#todoForm button{
+    height: 50px;
+}
+#todoList .i{
+    cursor: pointer;
+    font-size: 28px;
+}
+#todoList .edit{
+   color: #01435e;
+   cursor: pointer;
+}
+#todoList .delete{
+    color: rgb(41, 23, 17);
+    cursor: pointer;
+}
+.list-group span i:hover{
+    scale: 1.3;
+}
+.list-group-item:hover{
+    background-color: rgb(210, 148, 33);
+}
+.form-control:hover{
+    background-color: antiquewhite;
+}
